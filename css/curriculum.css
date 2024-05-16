@@ -1,0 +1,23 @@
+/*documento css*/
+ * {background-color: aquamarine;}
+
+ h1 {color: blueviolet;}
+
+ .info {margin: auto;
+         display: flex;
+         flex-wrap: wrap;
+         flex-flow: column;
+         text-align: justify;}
+
+img .info {padding: auto;
+            margin: auto;
+           display: flex;
+           flex-flow: column;}
+
+img { width: 30%;}
+
+.bi-facebook:hover { color: blue;}
+
+.bi-instagram:hover {color: blueviolet;}
+
+.bi-whatsapp:hover { color: green;}

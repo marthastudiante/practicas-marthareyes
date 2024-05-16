@@ -1,0 +1,22 @@
+/*documento*/
+* {margin: 0;
+    padding: 0;}
+
+
+.navbar-brand { width:  130px;}
+
+.navbar { background-color: rgba(59, 102, 245, 0.863);}
+
+.navbar-light .navbar-nav .nav-link { color: whitesmoke !important;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; }
+
+.cabecera {background-color: blue;}
+
+.bi-list { font-size: 1.6em;
+          color: white;
+         font-weight: bold;}
+
+.button:active { outline: white !important;}

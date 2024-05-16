@@ -1,0 +1,28 @@
+/*documento css*/
+
+body {background-color: aliceblue}
+.bi-nvidia { color: blue;
+            width: 10%; }
+
+h1 { color: black;}
+
+.bi-nvidia h1 { display: flex;
+                margin: auto;
+               justify-content: flex-start;}
+
+
+section { padding: 0px;
+         margin: 0px;
+        display: flex;
+        flex-direction: row;
+          align-items: baseline;
+        align-self: stretch;}
+
+    .v1 { width: 30px;}
+
+    .v2 { width: 30px;
+         }
+    
+    .v3 { width: 30px;}
+    
+    .v4 { width: 30px;}

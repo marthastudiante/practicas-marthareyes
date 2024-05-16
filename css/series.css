@@ -1,0 +1,188 @@
+/*documento css*/
+
+*{padding: 0%;
+  margin: 0%;}
+
+body { background-color: rgb(202, 240, 240);}
+
+h1 { text-align: center;
+    color: brown;
+     background-color: bisque; 
+    padding: 20px 30px;
+     margin: 0%;
+     font-family: "Chilanka", cursive;
+     font-weight: 400;
+     font-style: normal;}
+
+section { align-items: center;
+          flex-direction: column;}
+
+h2 { padding: 10px;
+  font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; }
+
+img { width: 500px;
+      padding: 10px;}
+
+p { text-align:justify;
+     width: 500px;
+     font-family: "Inder", sans-serif;
+     font-weight: 400;
+     font-style: normal;}
+
+.lucifer p { color: black;}
+
+.lucifer h2 {color: red;
+             background-color: black;}
+
+.criminal h2 { color:rgb(228, 228, 90);
+              background-color: black;}
+
+.bone h2 { color: blue;
+           background-color: black;}
+ 
+.csi h2{ color: blueviolet;
+         background-color: black;
+        margin: 20px;}
+
+footer { background-color:bisque;
+         padding: 30px;}
+/*media quiere 600 en adelante*/
+@media only screen and (min-width:600px) {
+  
+  body { background-color: rgb(45, 141, 141);}
+
+    h1 { text-align: center;
+        color: rgb(255, 2, 2);
+         background-color: rgb(179, 126, 62); 
+        padding: 20px;
+         margin: 0%;}
+
+         p { text-align:justify;
+            width: 500px;}
+h2 {font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; }
+ p {font-family: "Inder", sans-serif;
+      font-weight: 400;
+      font-style: normal}
+
+.lucifer p { color: black;}
+
+.lucifer h2 {color: red;
+             background-color: black;}
+
+.criminal h2 { color:rgb(228, 228, 90);
+              background-color: black;}
+
+.bone h2 { color: blue;
+           background-color: black;}
+ 
+.csi h2{ color: blueviolet;
+         background-color: black;
+        margin: 20px;}
+
+  footer { background-color: aquamarine;
+           padding: 30px;
+          margin: 0px;}
+         
+
+}
+/*media quiere 992 en adelante*/
+@media only screen and (min-width:992px) {
+
+  body { background-color: rgb(64, 204, 204);}
+
+  h1 { text-align: center;
+    color: rgb(126, 34, 34);
+     background-color: rgb(153, 133, 108); 
+    padding: 20px 30px;
+     margin: 0%;
+     }
+ h2 {font-family: "Truculenta", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100; }
+p {font-family: "Inder", sans-serif;
+          font-weight: 400;
+          font-style: normal}
+
+footer { background-color: rgb(59, 107, 91);
+         padding: 30px;
+         margin: 0px;}
+
+
+.lucifer p { color: black;}
+
+.lucifer h2 {color: red;
+             background-color: black;}
+
+.criminal h2 { color:rgb(228, 228, 90);
+              background-color: black;}
+
+.bone h2 { color: blue;
+           background-color: black;}
+ 
+.csi h2{ color: blueviolet;
+         background-color: black;
+         margin: 20px;}
+
+}
+/*media quiere 1280 en adelante*/
+@media only screen and (min-width:1280px) {
+
+  body { background-color: rgb(168, 202, 202);}
+
+  h1 { text-align: center;
+    color: rgb(126, 34, 34);
+     background-color: rgb(153, 133, 108); 
+    padding: 20px 30px;
+     margin: 0%;}
+  
+  h2 {font-family: "Truculenta", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100; }
+  p {font-family: "Inder", sans-serif;
+          font-weight: 400;
+          font-style: normal}
+
+.licifer .bone .criminal {margin:auto;
+                         display:flex;
+                         flex-direction: column;
+                         justify-content: space-between;
+                         align-items: flex-start;}
+
+.lucifer p { color: black;}
+
+.lucifer h2 {color: red;
+             background-color: black;
+             align-self: center;}
+
+.criminal h2 { color:rgb(228, 228, 90);
+              background-color: black;
+             align-self: center;}
+
+.bone h2 { color: blue;
+           background-color: black;}
+ 
+.csi h2{ color: blueviolet;
+         background-color: black;
+        margin: 20px;}
+
+     footer { background-color: rgb(59, 107, 91);
+      padding: 30px;
+     margin: 0px;}
+
+}

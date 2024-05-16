@@ -1,0 +1,17 @@
+/*documento css*/
+
+.contenedor{ width: 200px;
+             margin: 20px auto; 
+             display:flex; }
+
+.items { width: 33.33%; }
+
+a.items { font-size: 3em;
+          color: black;
+        }
+
+.bi-facebook:hover { color: blue;}
+
+.bi-instagram:hover {color: blueviolet;}
+
+.bi-whatsapp:hover { color: green;}

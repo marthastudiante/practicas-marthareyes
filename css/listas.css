@@ -1,0 +1,9 @@
+/*documento css*/
+
+body {font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; }
+
+    body img {float: left;
+               margin-right: 15px;}

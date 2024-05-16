@@ -1,0 +1,68 @@
+/*documento css*/
+* {margin: 0;
+    padding: 0;}
+
+    body {background-color: blanchedalmond;
+        font-family: "Fredoka", sans-serif; }
+h1{text-align: center;
+    background-color: blue;
+    padding: 20px 0px; 
+     color: azure;
+      text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: 0px 0px 3px cornflowerblue; 
+border-bottom: 3px solid goldenrod;}
+
+.cuerpo {width: 70%;
+         margin: 80px auto;}
+
+.item {width: 50%;
+        padding: 15px;
+        box-sizing: border-box;}
+
+.item input, textarea {width: 100%;
+              padding: 8px 0px;
+            margin-bottom: 8px 0px;
+             border-radius: 30px;
+            border: 2px solid black;}
+
+#btn {width: 50%;}
+
+h2{ font-size: 2em;
+     padding-bottom: 15px; }
+
+.cuerpo p {line-height: 1.5;
+        font-size: 1.2em;}
+.item input::placeholder, textarea ::placeholder { font-style: italic;
+                                                   font-weight: 500;
+                                                 color: blue; 
+                                                padding-left: 8px;}
+
+.pie{padding: 20px 0px;
+      text-align: center;
+    background-color: rgb(119, 119, 179);
+    color: azure;}
+
+.pie a{color: rgb(255, 255, 255);}
+
+.pie a:hover{ color: rgb(236, 35, 35);}
+ .pie a:active { color: blue;}
+
+ .cuerpo::before {content:" ";
+                  display: block;
+                 width: 80px;
+                 height: 80px;
+                 background-image: url(../img/send-check-fill.svg);
+                background-repeat: no-repeat;
+              background-size: 60%;}
+                
+
+ .cuerpo::after {content:" " ;
+                  display: block;
+                width: 80px;
+                height: 80px;
+               background-image: url(../img/send-check-fill.svg);
+               background-repeat: no-repeat;
+                background-size: 100%;
+               position: relative;
+               top: 9px;}

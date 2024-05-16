@@ -1,0 +1,30 @@
+/*documento css*/
+
+body {background-color: red;}
+
+h2 {text-align: center;}
+
+h1 {color: azure;
+         text-align: center;
+        background-color: black;
+         }
+
+.ingredientes {color: azure;
+               }
+
+
+img{ width: 390px;
+          }
+    
+div{align-content: flex-end;
+    color: blue;
+     text-align: justify;}
+
+div img {align-items: center;}
+
+.ingredientes {padding: auto;
+                margin: auto;
+                flex-direction: column;
+               }
+
+

@@ -1,0 +1,29 @@
+/*documento css*/
+
+body {background-color: rgb(219, 136, 136);}
+
+h1 {text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bold;
+     color: blanchedalmond;
+    background-color:blueviolet;
+    padding: 20px;}
+
+     h2 {text-align: justify;
+         color: bisque; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+        h3 {color: aliceblue;}
+
+    p {color: black;;}
+    dt {font-weight: bold;}
+    li {color: crimson;}
+
+div {box-sizing:border-box;}
+img {width: center;
+      border: bisque  solid 4px;}
+
+      .tablas table {margin: auto;}
+      td {background-color: brown;}
+
+.pie footer {background-color: blue;}
